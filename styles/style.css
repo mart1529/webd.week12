@@ -1,0 +1,30 @@
+h1{
+   font-family: "Knewave", system-ui;
+   font-size: 36px;
+}
+
+h3{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 24px;
+
+    /*with variable fonts, you have more flexibility
+with the style of your font*/
+   font-weight: 100;
+
+   /*font-variation-settings is a catch-all setting
+   outside of */
+   font-variation-settings: "width" 100;
+
+   /*this is for an animation*/
+   transition: all 3s;
+}
+
+h3:hover{
+    font-weight: 900;
+}
+
+
+
+p{
+     font-family: "Basic", sans-serif;
+}
